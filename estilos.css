@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+/*El body es el contenedor de todo, hasta del navbar
+con él se ha delimitado el espacio de trabajo para que mantenga 
+paddings en los contenedores posteriores */
+body{
+    padding-inline: 5rem;
+    padding-top: 1rem;
+}
+nav{
+    background-color: #CCC;
+    padding: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header h1{
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+nav input{
+    border: solid 2px black;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    width: 60%;
+}
+nav button{
+    background-color: royalblue;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.3rem 1rem;
+    border: solid 2px black;
+    box-shadow: 0.2rem 0.2rem black;
+}
