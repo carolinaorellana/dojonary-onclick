@@ -98,3 +98,29 @@ section .definicion{
 aside{
     flex: 2;
 }
+.dojonary{
+    margin-top: 2rem;
+    border: solid 2px #CCC;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.dojonary h4{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    padding-right: 10%;
+}
+.dojonary span{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.dojonary button{
+    background-color:#95D066;
+    padding-block: 0.6rem;
+    width:80%;
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 4px 4px black;
+    align-self: center;
+}
