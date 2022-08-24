@@ -125,3 +125,9 @@ aside{
     box-shadow: 4px 4px black;
     align-self: center;
 }
+a:link, a:visited{
+    color: royalblue;
+}
+a:hover{
+    color: #95D066;
+}
