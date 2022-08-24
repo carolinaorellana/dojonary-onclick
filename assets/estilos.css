@@ -36,6 +36,7 @@ nav button{
     padding: 0.3rem 1rem;
     border: solid 2px black;
     box-shadow: 0.2rem 0.2rem black;
+    width: 7rem;
 }
 main{
     display: flex;

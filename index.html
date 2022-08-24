@@ -21,7 +21,7 @@
                 <h1>Dojonary</h1>
             </header>
             <input type="text" placeholder="search">
-            <button>Login</button>
+            <button onclick="turnLogOut(this)">Login</button>
         </nav>
         <main>
             <section>
@@ -30,7 +30,7 @@
                         <h2>ninja</h2>
                         <h3><span>noun</span></h3>
                         <h4>Plural: <span>ninjas</span></h4>
-                        <button>13 Likes</button>
+                        <button onclick="likeMessageOne()">13 Likes</button>
                     </div>
                     <div class="parrafoDef">
                         <p>A paractitioner skilled in the
@@ -45,7 +45,7 @@
                         <h2>ninja</h2>
                         <h3><span>noun</span></h3>
                         <h4>Plural: <span>ninjas</span></h4>
-                        <button>37 Likes</button>
+                        <button onclick="likeMessageTwo(this)">37 Likes</button>
                     </div>
                     <div class="parrafoDef" >
                         <p>A
@@ -60,9 +60,10 @@
             <aside>
                 <div class="dojonary">
                     <h4>Dojonary is defined by <span>you</span></h4>
-                    <button> Add Definition</button>
+                    <button onclick="ocultar(this)"> Add Definition</button>
                 </div>
             </aside>
         </main>
+        <script src="assets/script.js"></script>
     </body>
 </html>
