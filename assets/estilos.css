@@ -10,6 +10,7 @@ body{
     padding-inline: 5rem;
     padding-top: 1rem;
 }
+/*Barra de navegación*/
 nav{
     background-color: #CCC;
     padding: 1.3rem;
@@ -18,7 +19,7 @@ nav{
     align-items: center;
 }
 header h1{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 900;
 
 }
@@ -35,4 +36,65 @@ nav button{
     padding: 0.3rem 1rem;
     border: solid 2px black;
     box-shadow: 0.2rem 0.2rem black;
+}
+main{
+    display: flex;
+}
+/*Seccion con definiciones*/
+section{
+    flex: 3;
+    margin-right: 2rem;
+}
+/* Cada definición*/
+section .definicion{
+    margin-top: 2rem;
+    border: solid 2px #CCC;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+.defColumn1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+}
+.defColumn1 h2{
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+}
+.defColumn1 h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+.defColumn1 h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+.defColumn1 span{
+    font-style: italic;
+}
+.defColumn1 button{
+    background-color: #F4D03F;
+    padding-block: 0.3rem;
+    width: 7rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 4px 4px black;
+}
+/*No se quiso copiar el salto de linea para mantener caracter responsivo  */
+.parrafoDef{
+    padding: 0rem 4rem 0rem 4rem;
+    text-align: center;
+}
+.parrafoDef p{
+    font-size: 1.6rem;
+}
+
+/*Aside, columna de la derecha más angosta*/
+aside{
+    flex: 2;
 }
